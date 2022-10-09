@@ -1,4 +1,4 @@
-# This file is a part of TG-Direct-Link-Generator
+# Bu dosya Telegram-Dosyalarini-Direct-Link-Cekme'nin bir parçasıdır.
 
 from os import environ
 from dotenv import load_dotenv
