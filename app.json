@@ -34,7 +34,7 @@
           "description": "BOT TOKEN @BotFather'den alın"
       },
       "BIN_CHANNEL": {
-          "description": "MissRose_Bot'tan temin edin"
+          "description": "MissRose_Bot'tan temin edin ÖRnk: -100XXXX"
           
       },
       "PING_INTERVAL": {
@@ -48,7 +48,7 @@
           "description": "Telegram kullanıcı id girin ÖRNK:563738XX"
       },
       "BANNED_CHANNELS": {
-          "description": "KANAL ID girin ÖRNK: -100XXX",
+          "description": "Botun çalışmadığı kanalları ekleyin KANAL ID girin ÖRNK: -100XXX",
           "required": false
       },
       "UPDATES_CHANNEL": {
