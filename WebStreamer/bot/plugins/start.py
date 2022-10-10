@@ -12,19 +12,19 @@ db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 
 START_TEXT = """
 <i>👋 Sᴇʟᴀᴍ,</i>{}\n
-<i>Bᴇɴ Tᴇʟᴇɢʀᴀᴍ Dᴏsʏᴀʟᴀʀɪ︎ɴɪ︎ ᴅɪ︎ʀᴇᴄᴛ ɪ︎ɴᴅɪ︎ʀᴍᴇ Lɪɴᴋɪɴᴇ Dᴏɴᴜsᴛᴜʀᴇɴ Bɪʀ Bᴏᴛᴜᴍ</i>\n
-<i>“Yᴀʀᴅɪ︎ᴍ“ Tᴜsᴜɴᴀ Bᴀsᴀʀᴀᴋ Dᴀʜᴀ Fᴀᴢʟᴀ Bɪ︎ʟɢɪ︎ Eᴅɪɴᴇʙɪʟɪʀsɪɴ</i>\n
-<i>Lɪɴᴋʟᴇʀ ᴡɪ︎ɴɪ︎ᴏs ᴠᴇ ᴇsɪɢɴ sᴏʀᴜɴsᴜᴢ ᴄᴀʟɪ︎sᴍᴀᴋᴛᴀ</i>\n
-<i>🇹🇷𝗧𝗿𝗔𝗽𝗽𝗹𝗲𝗗𝗲𝘀𝘁𝗲𝗸 𝟳/𝟮𝟰🇹🇷</i>
+<i>𝙱𝚎𝚗 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝙳𝚘𝚜𝚢𝚊𝚕𝚊𝚛ｪ𝚗ｪ 𝙳𝚒𝚛𝚎𝚌𝚝 𝙸̇𝚗𝚍𝚒𝚛𝚖𝚎 𝚕𝚒𝚗𝚔𝚒𝚗𝚎 𝙲̧𝚎𝚟𝚒𝚛𝚎𝚗 𝙱𝚒𝚛 𝙱𝚘𝚝𝚞𝚖</i>\n
+<i>“𝚈𝚊𝚛𝚍ｪ𝚖“ 𝚃𝚞𝚜̧𝚞𝚗𝚊 𝚋𝚊𝚜𝚊𝚛𝚊𝚔 𝚍𝚎𝚝𝚊𝚢𝚕𝚊𝚛ｪ 𝚘̈𝚐̆𝚛𝚎𝚗𝚎𝚋𝚒𝚕𝚒𝚛𝚜𝚒𝚗</i>\n
+<i>𝙻𝚒𝚗𝚔𝚕𝚎𝚛 𝚆𝚒𝚗𝙸𝙾𝚂 𝚟𝚎 𝙴𝚜𝚒𝚐𝚗’𝚍𝚊 𝚂𝚘𝚛𝚞𝚗𝚜𝚞𝚣 𝙲̧𝚊𝚕ｪ𝚜̧𝚖𝚊𝚔𝚝𝚊𝚍ｪ𝚛</i>\n
+<i>🇹🇷𝗧𝗿𝗔𝗽𝗽𝗹𝗲𝗗𝗲𝘀𝘁𝗲𝗸 𝟳/𝟮𝟰🇹🇷</i>\n
 <i><u>𝗨𝗬𝗔𝗥𝗜 🚸</u></i>
 <b>🔞 𝙋𝙤𝙧𝙣𝙤𝙜𝙧𝙖𝙛𝙞 𝙞𝙘̧𝙚𝙧𝙚𝙣 𝙙𝙤𝙨𝙮𝙖𝙡𝙖𝙧𝙖𝙧 𝙠𝙖𝙡𝜾𝙘𝜾 𝙗𝙖𝙣𝙡𝙖𝙣𝙢𝙖𝙣𝜾𝙯𝙖 𝙨𝙚𝙗𝙚𝙥 𝙤𝙡𝙪𝙧.</b>\n\n
 <i><b>🍃 𝘉𝘰𝘵 𝘚𝘢𝘩𝘪𝘣𝘪 𝘎𝘳𝘶𝘱 :</b>@TrappledestekCom</i>"""
 
 HELP_TEXT = """
-<i>- Bᴀɢʟᴀɴᴛɪ︎sɪ︎ɴɪ︎ Aʟᴍᴀᴋ ⵊsᴛᴇᴅɪ︎ɢɪ︎ɴ Dᴏsʏᴀʏɪ︎ Bᴀɴᴀ ⵊʟᴇᴛ.</i>
-<i>- Bᴇɴᴅᴇ Dᴏsʏᴀɴɪ︎ɴ Bᴀɢʟᴀɴᴛɪ︎sɪ︎ɴɪ︎ Sᴀɴᴀ Gᴏɴᴅᴇʀᴇʏɪᴍ!.</i>
-<i>- Bᴇɴɪ Kᴀɴᴀʟɪ︎ɴɪ︎ᴢᴀ Eᴋʟᴇʀsᴇɴɪ︎ᴢ Pᴀʏʟᴀsɪ︎ʟᴀɴ Dᴏsʏᴀɴɪ︎ɴ Aʟᴛɪ︎ɴᴀ Dɪ︎ʀᴇᴄᴛ ɪ︎ɴᴅɪ︎ʀᴍᴇ Bᴜᴛᴏɴᴜ ʏᴇʀʟᴇsᴛɪ︎ʀɪ︎ʀɪ︎ᴍ</i>
-<i>- Lɪ︎ɴᴋʟᴇʀ Kᴀʟɪ︎ᴄɪ︎ ᴠᴇ Yᴜᴋsᴇᴋ Hɪ︎ᴢʟɪ︎ᴅɪ︎ʀ</i>\n
+<i>- 𝙱𝚊𝚐̆𝚕𝚊𝚗𝚝ｪ𝚜ｪ𝚗ｪ 𝚊𝚕𝚖𝚊𝚔 𝚒𝚜𝚝𝚎𝚍𝚒𝚐̆𝚒𝚗 𝚍𝚘𝚜𝚢𝚊𝚢ｪ 𝚋𝚊𝚗𝚊 𝚒𝚕𝚎𝚝.</i>
+<i>- 𝙱𝚎𝚗𝚍𝚎 𝚜𝚊𝚗𝚊 𝚍𝚘𝚜𝚢𝚊𝚗ｪ𝚗 𝚍𝚒𝚛𝚎𝚌𝚝 𝚒𝚗𝚍𝚒𝚛𝚖𝚎 𝚕𝚒𝚗𝚔𝚒𝚗𝚒 𝚐𝚘̈𝚗𝚍𝚎𝚛𝚎𝚢𝚒𝚖.</i>
+<i>- 𝙱𝚎𝚗𝚒 𝚔𝚊𝚗𝚊𝚕ｪ𝚗ｪ𝚣𝚊 𝚎𝚔𝚕𝚎𝚛𝚜𝚎𝚗𝚒𝚣 𝚙𝚊𝚢𝚕𝚊𝚜̧𝚝ｪ𝚐̆ｪ𝚗ｪ𝚣 𝙳𝚘𝚜𝚢𝚊𝚗ｪ𝚗 𝚊𝚕𝚝ｪ𝚗 𝚋𝚒𝚛 “𝙸̇𝚗𝚍𝚒𝚛𝚖𝚎“ 𝙱𝚞𝚝𝚘𝚗𝚞 𝚘𝚕𝚞𝚜̧𝚞𝚛</i>
+<i>- 𝙻𝚒𝚗𝚔𝚕𝚎𝚛 𝚔𝚊𝚕ｪ𝚌ｪ 𝚟𝚎 𝚈𝚞̈𝚔𝚜𝚎𝚔 𝚑ｪ𝚣𝚕ｪ 𝚒𝚗𝚍𝚒𝚛𝚖𝚎 𝚜𝚊𝚐̆𝚕𝚊𝚛</i>\n
 <u>🔸 𝗨𝗬𝗔𝗥𝗜 🚸</u>\n
 <b>🔞 𝙋𝙤𝙧𝙣𝙤𝙜𝙧𝙖𝙛𝙞 𝙞𝙘̧𝙚𝙧𝙚𝙣 𝙙𝙤𝙨𝙮𝙖𝙡𝙖𝙧𝙖𝙧 𝙠𝙖𝙡𝜾𝙘𝜾 𝙗𝙖𝙣𝙡𝙖𝙣𝙢𝙖𝙣𝜾𝙯𝙖 𝙨𝙚𝙗𝙚𝙥 𝙤𝙡𝙪𝙧.</b>\n
 <i>𝙷𝚊𝚝𝚊𝚕𝚊𝚛 𝚔𝚊𝚛𝚜̧ｪ𝚜ｪ𝚗𝚍𝚊 𝚈𝚊𝚙ｪ𝚖𝚌ｪ 𝚒𝚕𝚎 𝙸̇𝚕𝚎𝚝𝚒𝚜̧𝚒𝚖𝚎 𝙶𝚎𝚌̧𝚒𝚗</i> <b>: <a href='https://t.me/dark_enza'>[ 𝐁𝐮𝐫𝐝𝐚𝐧 ]</a></b>"""
@@ -101,7 +101,7 @@ async def start(b, m):
         await db.add_user(m.from_user.id)
         await b.send_message(
             Var.BIN_CHANNEL,
-            f"**Yᴇɴɪ︎ ᴋᴜʟʟᴀɴɪ︎ᴄɪ︎ ᴋᴀᴛɪ︎ʟᴅɪ︎:** \n\n__ʙᴇɴɪ︎ᴍ ʏᴇɴɪ︎ ᴀʀᴋᴀᴅᴀsɪ︎ᴍ__ [{m.from_user.first_name}](tg://user?id={m.from_user.id}) __ʙᴏᴛᴜɴᴜ ʙᴀsʟᴀᴛᴛɪ︎ !!__"
+            f"**Yᴇɴɪ︎ ᴋᴜʟʟᴀɴɪ︎ᴄɪ︎ ᴋᴀᴛɪ︎ʟᴅɪ︎:** \n\n__𝚈𝚎𝚗𝚒 𝚊𝚛𝚔𝚊𝚍𝚊𝚜̧ｪ𝚖ｪ𝚣__ [{m.from_user.first_name}](tg://user?id={m.from_user.id}) __𝙱𝚘𝚝𝚞 𝚋𝚊𝚜̧𝚕𝚊𝚝𝚝ｪ!!__"
         )
     usr_cmd = m.text.split("_")[-1]
     if usr_cmd == "/start":
@@ -122,7 +122,7 @@ async def start(b, m):
                     text="<i>Gʀᴜʙᴜᴍᴜᴢᴀ ᴋᴀᴛɪ︎ʟᴀʀᴀᴋ ʙᴏᴛᴜᴍᴜᴢᴜ ᴋᴜʟʟᴀɴᴀʙɪ︎ʟɪ︎ʀsɪ︎ɴ 🔐</i>",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                            InlineKeyboardButton("Sɪ︎ᴍᴅɪ︎ ᴋᴀᴛɪ︎ʟ 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                            InlineKeyboardButton("𝐒̧𝐢𝐦𝐝𝐢 𝐊𝐚𝐭𝛊𝐥 🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                             ]]
                     ),
                     parse_mode=ParseMode.HTML
@@ -161,8 +161,8 @@ async def start(b, m):
                     text="**Bᴏᴛᴜ ᴋᴜʟʟᴀɴᴍᴀᴋ ɪ︎ᴄɪ︎ɴ ʟᴜᴛꜰᴇɴ Gʀᴜʙᴜᴍᴜᴢᴀ ᴋᴀᴛɪ︎ʟɪ︎ɴ**!\n\n**𝙰𝚜̧ｪ𝚛ｪ 𝚢𝚞̈𝚔𝚕𝚎𝚗𝚖𝚎 𝚗𝚎𝚍𝚎𝚗𝚒𝚢𝚕𝚎 𝙱𝚘𝚝𝚞𝚖𝚞𝚣𝚞 𝚂𝚊𝚍𝚎𝚌𝚎 𝚐𝚛𝚞𝚙 𝚞̈𝚢𝚎𝚕𝚎𝚛𝚒 𝙺𝚞𝚕𝚕𝚊𝚗𝚊𝚋𝚒𝚕𝚒𝚛 **!",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                          InlineKeyboardButton("🤖 Gʀᴜʙᴀ ᴋᴀᴛɪ︎ʟ", url=f"https://t.me/{Var.UPDATES_CHANNEL}")],
-                         [InlineKeyboardButton("🔄 Yᴇɴɪ︎ʟᴇ / Tᴇᴋʀᴀʀ ᴅᴇɴᴇ", url=f"https://t.me/{(await b.get_me()).username}?start=AvishkarPatil_{usr_cmd}")
+                          InlineKeyboardButton("🤖 𝐆𝐫𝐮𝐛𝐚 𝐊𝐚𝐭𝛊𝐥", url=f"https://t.me/{Var.UPDATES_CHANNEL}")],
+                         [InlineKeyboardButton("🔄 𝐘𝐞𝐧𝐢𝐥𝐞 / 𝐓𝐞𝐤𝐫𝐚𝐫 𝐝𝐞𝐧𝐞", url=f"https://t.me/{(await b.get_me()).username}?start=AvishkarPatil_{usr_cmd}")
                         
                         ]]
                     ),
@@ -192,8 +192,8 @@ async def start(b, m):
 <b>📂 𝔻𝕠𝕤𝕪𝕒 𝕀̇𝕤𝕞𝕚 :</b> <i>{}</i>\n
 <b>📦 𝔻𝕠𝕤𝕪𝕒 𝔹𝕠𝕪𝕦𝕥𝕦 :</b> <i>{}</i>\n
 <b>📥 𝕀̇ℕ𝔻𝕀̇ℝ :</b> <i>{}</i>\n
-<b>🚸 ℕ𝕠𝕥 : 𝙻𝚒𝚗𝚔𝚕𝚎𝚛𝚒 𝟸𝟺 𝚜𝚊𝚊𝚝 𝙸̇𝚌̧𝚒𝚗𝚍𝚎 𝙺𝚞𝚕𝚕𝚊𝚗𝚖𝚊𝚗ｪ𝚣 𝚃𝚊𝚟𝚜𝚒𝚢𝚎 𝚎𝚍𝚒𝚕𝚒𝚛</b>\n
-<i>🍃 ʙᴏᴛ sᴀʜɪ︎ʙɪ︎ ɢʀᴜᴘ :</i> <b>@TrappledestekCom</b>
+<b>🚸 ℕ𝕠𝕥 : 𝙻𝚒𝚗𝚔𝚕𝚎𝚛 𝚔𝚊𝚕ｪ𝚌ｪ 𝚟𝚎 𝚈𝚞̈𝚔𝚜𝚎𝚔 𝚑ｪ𝚣𝚕ｪ 𝚒𝚗𝚍𝚒𝚛𝚖𝚎 𝚜𝚊𝚐̆𝚕𝚊𝚛</b>\n
+<i>🍃 𝑩𝒐𝒕 𝑺𝒂𝒉𝒊𝒃𝒊 𝑮𝒓𝒖𝒑 :</i> <b>@TrappledestekCom</b>
 """
 
         await m.reply_text(
@@ -219,7 +219,7 @@ async def help_handler(bot, message):
         await db.add_user(message.from_user.id)
         await bot.send_message(
             Var.BIN_CHANNEL,
-            f"**ʏᴇɴɪ︎ ᴋᴜʟʟᴀɴɪ︎ᴄɪ︎ ᴋᴀᴛɪ︎ʟᴅɪ︎ **\n\n__Bᴇɴɪ︎ᴍ ʏᴇɴɪ︎ ᴀʀᴋᴀᴅᴀsɪ︎ᴍ__ [{message.from_user.first_name}](tg://user?id={message.from_user.id}) __ʙᴏᴛᴜɴᴜ ʙᴀsʟᴀᴛᴛɪ︎ !!__"
+            f"**ʏᴇɴɪ︎ ᴋᴜʟʟᴀɴɪ︎ᴄɪ︎ ᴋᴀᴛɪ︎ʟᴅɪ︎ **\n\n__𝚈𝚎𝚗𝚒 𝚊𝚛𝚔𝚊𝚍𝚊𝚜̧ｪ𝚖ｪ𝚣__ [{message.from_user.first_name}](tg://user?id={message.from_user.id}) __𝙱𝚘𝚝𝚞 𝚋𝚊𝚜̧𝚕𝚊𝚝𝚝ｪ !!__"
         )
     if Var.UPDATES_CHANNEL is not None:
         try:
@@ -235,10 +235,10 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="**Bᴏᴛᴜ ᴋᴜʟʟᴀɴᴍᴀᴋ ɪ︎ᴄɪ︎ɴ ɢʀᴜʙᴜᴍᴜᴢᴀ ᴋᴀᴛɪ︎ʟɪ︎ɴ!**\n\n__𝙰𝚜̧ｪ𝚛ｪ 𝚢𝚞̈𝚔𝚕𝚎𝚗𝚖𝚎 𝚜𝚎𝚋𝚎𝚋𝚒 𝚒𝚕𝚎 𝚂𝚊𝚍𝚎𝚌𝚎 𝚐𝚛𝚞𝚙 𝚞̈𝚢𝚎𝚕𝚎𝚛𝚒 𝚔𝚞𝚕𝚕𝚊𝚗𝚊𝚋𝚒𝚕𝚒𝚛!__",
+                text="**𝑩𝒐𝒕𝒖 𝒌𝒖𝒍𝒍𝒂𝒏𝒎𝒂𝒌 𝒊𝒄̧𝒊𝒏 𝒈𝒓𝒖𝒃𝒖𝒎𝒖𝒛𝒂 𝒌𝒂𝒕𝜾𝒍𝜾𝒏!**\n\n__𝙰𝚜̧ｪ𝚛ｪ 𝚢𝚞̈𝚔𝚕𝚎𝚗𝚖𝚎 𝚜𝚎𝚋𝚎𝚋𝚒 𝚒𝚕𝚎 𝚂𝚊𝚍𝚎𝚌𝚎 𝚐𝚛𝚞𝚙 𝚞̈𝚢𝚎𝚕𝚎𝚛𝚒 𝚔𝚞𝚕𝚕𝚊𝚗𝚊𝚋𝚒𝚕𝚒𝚛!__",
                 reply_markup=InlineKeyboardMarkup(
                     [[
-                        InlineKeyboardButton("🤖 Gʀᴜʙᴀ ᴋᴀᴛɪ︎ʟ", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                        InlineKeyboardButton("🤖 𝐆𝐫𝐮𝐛𝐚 𝐊𝐚𝐭𝛊𝐥", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                         ]]
                 ),
                 parse_mode=ParseMode.MARKDOWN
