@@ -49,9 +49,9 @@ async def private_receive_handler(c: Client, m: Message):
         except UserNotParticipant:
             await c.send_message(
                 chat_id=m.chat.id,
-                text="""<i>Kᴜʟʟᴀɴᴍᴀᴋ ɪ︎ᴄɪ︎ɴ ɢʀᴜʙᴜᴍᴜᴢᴀ ᴋᴀᴛɪ︎ʟ 🔐</i>""",
+                text="""<i>𝙺𝚞𝚕𝚕𝚊𝚗𝚖𝚊𝚔 𝚒𝚌̧𝚒𝚗 𝚐𝚛𝚞𝚋𝚞𝚖𝚞𝚣𝚊 𝚔𝚊𝚝ｪ𝚕 🔐</i>""",
                 reply_markup=InlineKeyboardMarkup(
-                    [[ InlineKeyboardButton("Sɪ︎ᴍᴅɪ︎ ᴋᴀᴛɪ︎ʟ🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}") ]]
+                    [[ InlineKeyboardButton("𝐒̧𝐢𝐦𝐝𝐢 𝐊𝐚𝐭𝛊𝐥🔓", url=f"https://t.me/{Var.UPDATES_CHANNEL}") ]]
                 ),
                 parse_mode=ParseMode.HTML
             )
@@ -77,8 +77,8 @@ async def private_receive_handler(c: Client, m: Message):
 <i><u>𝗟𝗶𝗻𝗸 𝗢𝗹𝘂𝘀̧𝘁𝘂𝗿𝘂𝗹𝗱𝘂 !</u></i>\n
 <b>📂 𝔻𝕠𝕤𝕪𝕒 𝕀̇𝕤𝕞𝕚 :</b> <i>{}</i>\n
 <b>📦 𝔻𝕠𝕤𝕪𝕒 𝕓𝕠𝕪𝕦𝕥𝕦 :</b> <i>{}</i>\n
-<b>📥 𝕀̇𝕟𝕕𝕚𝕣 :</b> <i>{}</i>\n
-<b>🚸 Nᴏᴛ : Lɪɴᴋʟᴇʀ ᴋᴀʟɪ︎ᴄɪ︎ᴅɪ︎ʀ</b>\n
+<b>📥 𝕀̇𝕟𝕕𝕚𝕣𝕞𝕖 𝕃𝕚𝕟𝕜𝕚 :</b> <i>{}</i>\n
+<b>🚸 Nᴏᴛ : 𝙻𝚒𝚗𝚔𝚕𝚎𝚛 𝚔𝚊𝚕ｪ𝚌ｪ𝚍ｪ𝚛 𝚟𝚎 𝙷ｪ𝚣𝚕ｪ 𝚒𝚗𝚍𝚒𝚛𝚖𝚎 𝚜𝚊𝚐̆𝚕𝚊𝚛</b>\n
 <i>© @TrappledestekCom </i>"""
 
         await log_msg.reply_text(text=f"**Tᴀʟᴇᴘ ᴇᴅᴇɴ :** [{m.from_user.first_name}](tg://user?id={m.from_user.id})\n**ᴋᴜʟʟᴀɴɪ︎ᴄɪ︎ ɪᴅ :** `{m.from_user.id}`\n**ɪɴᴅɪʀᴍᴇ ʟɪɴᴋɪ :** {stream_link}", disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN, quote=True)
@@ -107,8 +107,8 @@ async def channel_receive_handler(bot, broadcast):
                                     Var.PORT,
                                     log_msg.id)
         await log_msg.reply_text(
-            text=f"**Kᴀɴᴀʟ ɪsᴍɪ:** `{broadcast.chat.title}`\n**Kᴀɴᴀʟ ID:** `{broadcast.chat.id}`\n**Uʀʟ ɪ︎sᴛᴇɢɪ:** https://t.me/{(await bot.get_me()).username}?start=AvishkarPatil_{str(log_msg.id)}",
-            # text=f"**Cʜᴀɴɴᴇʟ Nᴀᴍᴇ:** `{broadcast.chat.title}`\n**Cʜᴀɴɴᴇʟ ID:** `{broadcast.chat.id}`\n**Rᴇǫᴜᴇsᴛ ᴜʀʟ:** https://t.me/FxStreamBot?start=AvishkarPatil_{str(log_msg.id)}",
+            text=f"**Kᴀɴᴀʟ ɪsᴍɪ:** `{broadcast.chat.title}`\n**Kᴀɴᴀʟ ID:** `{broadcast.chat.id}`\n**Uʀʟ ɪ︎sᴛᴇɢɪ:** https://t.me/{(await bot.get_me()).username}?start=darkenza_{str(log_msg.id)}",
+          
             quote=True,
             parse_mode=ParseMode.MARKDOWN
         )
@@ -116,7 +116,7 @@ async def channel_receive_handler(bot, broadcast):
             chat_id=broadcast.chat.id,
             message_id=broadcast.id,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("𝕀̇𝕟𝕕𝕚𝕣𝕞𝕖 𝕃𝕚𝕟𝕜𝕚 📥", url=f"https://t.me/{(await bot.get_me()).username}?start=AvishkarPatil_{str(log_msg.id)}")]])
+                [[InlineKeyboardButton("𝕀̇𝕟𝕕𝕚𝕣𝕞𝕖 𝕃𝕚𝕟𝕜𝕚 📥", url=f"https://t.me/{(await bot.get_me()).username}?start=darkenza_{str(log_msg.id)}")]])
             # [[InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 📥", url=f"https://t.me/FxStreamBot?start=AvishkarPatil_{str(log_msg.id)}")]])
         )
     except FloodWait as w:
