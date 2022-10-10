@@ -13,9 +13,9 @@ routes = web.RouteTableDef()
 @routes.get("/", allow_head=True)
 async def root_route_handler(request):
     bot_details = await StreamBot.get_me()
-    return web.json_response({"Durum": "Çalışıyor",
-                              "Yapımcı": "☬𝐃𝐀𝐑𝐊 | 𝐄𝐍𝐙𝐀☬",
-                              "server_izinleri": "Açık",
+    return web.json_response({"Durum": "Calisiyor",
+                              "Yapimci": "@dark_enza",
+                              "server_izinleri": "Acik",
                               "Telegram_Bot": '@'+bot_details.username})
 
 
