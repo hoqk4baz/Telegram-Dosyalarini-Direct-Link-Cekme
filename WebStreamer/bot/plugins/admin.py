@@ -16,13 +16,13 @@ db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 broadcast_ids = {}
 
 
-@StreamBot.on_message(filters.command("status") & filters.private & filters.user(Var.OWNER_ID))
+@StreamBot.on_message(filters.command("durum") & filters.private & filters.user(Var.OWNER_ID))
 async def sts(c: Client, m: Message):
     total_users = await db.total_users_count()
-    await m.reply_text(text=f"**Total Users in DB:** `{total_users}`", parse_mode=ParseMode.MARKDOWN, quote=True)
+    await m.reply_text(text=f"**Toplam Kullanıcılar:** `{total_users}`", parse_mode=ParseMode.MARKDOWN, quote=True)
 
 
-@StreamBot.on_message(filters.command("broadcast") & filters.private & filters.user(Var.OWNER_ID) & filters.reply)
+@StreamBot.on_message(filters.command("duyur") & filters.private & filters.user(Var.OWNER_ID) & filters.reply)
 async def broadcast_(c, m):
     all_users = await db.get_all_users()
     broadcast_msg = m.reply_to_message
@@ -31,7 +31,7 @@ async def broadcast_(c, m):
         if not broadcast_ids.get(broadcast_id):
             break
     out = await m.reply_text(
-        text=f"Broadcast initiated! You will be notified with log file when all the users are notified."
+        text=f"𝐃𝐮𝐲𝐮𝐫𝐮 𝐲𝐚𝐩𝛊𝐥𝐝𝛊,𝐁𝐢𝐥𝐠𝐢𝐥𝐞𝐫 𝐡𝐞𝐦𝐞𝐧 𝐠𝐞𝐭𝐢𝐫𝐢𝐥𝐢𝐲𝐨𝐫."
     )
     start_time = time.time()
     total_users = await db.total_users_count()
@@ -76,13 +76,13 @@ async def broadcast_(c, m):
     await out.delete()
     if failed == 0:
         await m.reply_text(
-            text=f"broadcast completed in `{completed_in}`\n\nTotal users {total_users}.\nTotal done {done}, {success} success and {failed} failed.",
+            text=f"𝐃𝐮𝐲𝐮𝐫𝐮 𝐓𝐚𝐦𝐚𝐦𝐥𝐚𝐧𝐝𝛊 `{completed_in}`\n\n𝚃𝚘𝚙𝚕𝚊𝚖 𝚔𝚞𝚕𝚕𝚊𝚗ｪ𝚌ｪ𝚕𝚊𝚛 {total_users}.\n𝚃𝚘𝚙𝚕𝚊𝚖 𝚞𝚕𝚊𝚜̧ｪ𝚕𝚊𝚗 {done}, {success} 𝐛𝐚𝐬̧𝐚𝐫𝛊𝐥𝛊 𝐯𝐞 {failed} 𝐛𝐚𝐬̧𝐚𝐫𝛊𝐬𝛊𝐳.",
             quote=True
         )
     else:
         await m.reply_document(
             document='broadcast.txt',
-            caption=f"broadcast completed in `{completed_in}`\n\nTotal users {total_users}.\nTotal done {done}, {success} success and {failed} failed.",
+            caption=f"𝐃𝐮𝐲𝐮𝐫𝐮 𝐓𝐚𝐦𝐚𝐦𝐥𝐚𝐧𝐝𝛊 `{completed_in}`\n\n𝚃𝚘𝚙𝚕𝚊𝚖 𝚔𝚞𝚕𝚕𝚊𝚗ｪ𝚌ｪ𝚕𝚊𝚛 {total_users}.\n𝚃𝚘𝚙𝚕𝚊𝚖 𝚞𝚕𝚊𝚜̧ｪ𝚕𝚊𝚗 {done}, {success} 𝐛𝐚𝐬̧𝐚𝐫𝛊𝐥𝛊 𝐯𝐞 {failed} 𝐛𝐚𝐬̧𝐚𝐫𝛊𝐬𝛊𝐳.",
             quote=True
         )
     os.remove('broadcast.txt')
