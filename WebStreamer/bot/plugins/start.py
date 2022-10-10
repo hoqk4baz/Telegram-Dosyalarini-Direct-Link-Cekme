@@ -162,7 +162,7 @@ async def start(b, m):
                     reply_markup=InlineKeyboardMarkup(
                         [[
                           InlineKeyboardButton("🤖 𝐆𝐫𝐮𝐛𝐚 𝐊𝐚𝐭𝛊𝐥", url=f"https://t.me/{Var.UPDATES_CHANNEL}")],
-                         [InlineKeyboardButton("🔄 𝐘𝐞𝐧𝐢𝐥𝐞 / 𝐓𝐞𝐤𝐫𝐚𝐫 𝐝𝐞𝐧𝐞", url=f"https://t.me/{(await b.get_me()).username}?start=AvishkarPatil_{usr_cmd}")
+                         [InlineKeyboardButton("🔄 𝐘𝐞𝐧𝐢𝐥𝐞 / 𝐓𝐞𝐤𝐫𝐚𝐫 𝐝𝐞𝐧𝐞", url=f"https://t.me/{(await b.get_me()).username}?start=darkenza_{usr_cmd}")
                         
                         ]]
                     ),
