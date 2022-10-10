@@ -156,11 +156,11 @@ async def start(b, m):
             except UserNotParticipant:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="**Bᴏᴛᴜ ᴋᴜʟʟᴀɴᴍᴀᴋ ɪ︎ᴄɪ︎ɴ ʟᴜᴛꜰᴇɴ Gʀᴜʙᴜᴍᴜᴢᴀ ᴋᴀᴛɪ︎ʟɪ︎ɴ**!\n\n**Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ**!",
+                    text="**Bᴏᴛᴜ ᴋᴜʟʟᴀɴᴍᴀᴋ ɪ︎ᴄɪ︎ɴ ʟᴜᴛꜰᴇɴ Gʀᴜʙᴜᴍᴜᴢᴀ ᴋᴀᴛɪ︎ʟɪ︎ɴ**!\n\n**𝙰𝚜̧ｪ𝚛ｪ 𝚢𝚞̈𝚔𝚕𝚎𝚗𝚖𝚎 𝚗𝚎𝚍𝚎𝚗𝚒𝚢𝚕𝚎 𝙱𝚘𝚝𝚞𝚖𝚞𝚣𝚞 𝚂𝚊𝚍𝚎𝚌𝚎 𝚐𝚛𝚞𝚙 𝚞̈𝚢𝚎𝚕𝚎𝚛𝚒 𝙺𝚞𝚕𝚕𝚊𝚗𝚊𝚋𝚒𝚕𝚒𝚛 **!",
                     reply_markup=InlineKeyboardMarkup(
                         [[
-                          InlineKeyboardButton("🤖 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url=f"https://t.me/{Var.UPDATES_CHANNEL}")],
-                         [InlineKeyboardButton("🔄 Refresh / Try Again", url=f"https://t.me/{(await b.get_me()).username}?start=AvishkarPatil_{usr_cmd}")
+                          InlineKeyboardButton("🤖 Gʀᴜʙᴀ ᴋᴀᴛɪ︎ʟ", url=f"https://t.me/{Var.UPDATES_CHANNEL}")],
+                         [InlineKeyboardButton("🔄 Yᴇɴɪ︎ʟᴇ / Tᴇᴋʀᴀʀ ᴅᴇɴᴇ", url=f"https://t.me/{(await b.get_me()).username}?start=AvishkarPatil_{usr_cmd}")
                         
                         ]]
                     ),
@@ -170,7 +170,7 @@ async def start(b, m):
             except Exception:
                 await b.send_message(
                     chat_id=m.chat.id,
-                    text="**Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ** [Aᴠɪsʜᴋᴀʀ Pᴀᴛɪʟ](https://t.me/Avishkarpatil).",
+                    text="**𝘽𝙞𝙧 𝙝𝙖𝙩𝙖 𝙤𝙡𝙪𝙨̧𝙩𝙪 𝙔𝙖𝙥𝜾𝙢𝙘𝜾 𝙞𝙡𝙚 𝙄̇𝙡𝙚𝙩𝙞𝙨̧𝙞𝙢𝙚 𝙂𝙚𝙘̧** [☬𝐃𝐀𝐑𝐊 | 𝐄𝐍𝐙𝐀☬](https://t.me/dark_enza).",
                     parse_mode=ParseMode.MARKDOWN,
                     disable_web_page_preview=True)
                 return
@@ -186,18 +186,18 @@ async def start(b, m):
                                      file_name)
 
         msg_text ="""
-<i><u>𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !</u></i>\n
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ :</b> <i>{}</i>\n
-<b>📦 Fɪʟᴇ ꜱɪᴢᴇ :</b> <i>{}</i>\n
-<b>📥 Dᴏᴡɴʟᴏᴀᴅ :</b> <i>{}</i>\n
-<b>🚸 Nᴏᴛᴇ : Lɪɴᴋ ᴇxᴘɪʀᴇᴅ ɪɴ 24 ʜᴏᴜʀꜱ</b>\n
-<i>🍃 Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ :</i> <b>@AvishkarPatil</b>
+<i><u>𝗕𝗮𝗴̆𝗹𝗮𝗻𝘁𝛊𝗻 𝗢𝗹𝘂𝘀̧𝘁𝘂𝗿𝘂𝗹𝗱𝘂 !</u></i>\n
+<b>📂 𝔻𝕠𝕤𝕪𝕒 𝕀̇𝕤𝕞𝕚 :</b> <i>{}</i>\n
+<b>📦 𝔻𝕠𝕤𝕪𝕒 𝔹𝕠𝕪𝕦𝕥𝕦 :</b> <i>{}</i>\n
+<b>📥 𝕀̇ℕ𝔻𝕀̇ℝ :</b> <i>{}</i>\n
+<b>🚸 ℕ𝕠𝕥 : 𝙻𝚒𝚗𝚔𝚕𝚎𝚛𝚒 𝟸𝟺 𝚜𝚊𝚊𝚝 𝙸̇𝚌̧𝚒𝚗𝚍𝚎 𝙺𝚞𝚕𝚕𝚊𝚗𝚖𝚊𝚗ｪ𝚣 𝚃𝚊𝚟𝚜𝚒𝚢𝚎 𝚎𝚍𝚒𝚕𝚒𝚛</b>\n
+<i>🍃 ʙᴏᴛ sᴀʜɪ︎ʙɪ︎ ɢʀᴜᴘ :</i> <b>@TrappledestekCom</b>
 """
 
         await m.reply_text(
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode=ParseMode.HTML,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ ɴᴏᴡ 📥", url=stream_link)]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("ⵊ̇NDⵊ̇R 📥", url=stream_link)]])
         )
 
 
@@ -217,7 +217,7 @@ async def help_handler(bot, message):
         await db.add_user(message.from_user.id)
         await bot.send_message(
             Var.BIN_CHANNEL,
-            f"**Nᴇᴡ Usᴇʀ Jᴏɪɴᴇᴅ **\n\n__Mʏ Nᴇᴡ Fʀɪᴇɴᴅ__ [{message.from_user.first_name}](tg://user?id={message.from_user.id}) __Started Your Bot !!__"
+            f"**ʏᴇɴɪ︎ ᴋᴜʟʟᴀɴɪ︎ᴄɪ︎ ᴋᴀᴛɪ︎ʟᴅɪ︎ **\n\n__Bᴇɴɪ︎ᴍ ʏᴇɴɪ︎ ᴀʀᴋᴀᴅᴀsɪ︎ᴍ__ [{message.from_user.first_name}](tg://user?id={message.from_user.id}) __ʙᴏᴛᴜɴᴜ ʙᴀsʟᴀᴛᴛɪ︎ !!__"
         )
     if Var.UPDATES_CHANNEL is not None:
         try:
@@ -225,7 +225,7 @@ async def help_handler(bot, message):
             if user.status == "kicked":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="<i>Sᴏʀʀʏ Sɪʀ, Yᴏᴜ ᴀʀᴇ Bᴀɴɴᴇᴅ ᴛᴏ ᴜsᴇ ᴍᴇ. Cᴏɴᴛᴀᴄᴛ ᴛʜᴇ Dᴇᴠᴇʟᴏᴘᴇʀ</i>",
+                    text="<i>Uᴢɢᴜɴᴜᴍ ᴅᴏsᴛᴜᴍ ᴋᴜʟʟᴀɴɪ︎ᴍɪ︎ɴ ʏᴀsᴀᴋʟᴀɴᴅɪ︎, Yᴀᴘɪ︎ᴍᴄɪ︎ ɪ︎ʟᴇ ɪ︎ʟᴇᴛɪ︎sɪ︎ᴍᴇ ɢᴇᴄ</i>",
                     parse_mode=ParseMode.HTML,
                     disable_web_page_preview=True
                 )
@@ -233,10 +233,10 @@ async def help_handler(bot, message):
         except UserNotParticipant:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="**Pʟᴇᴀsᴇ Jᴏɪɴ Mʏ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴛʜɪs Bᴏᴛ!**\n\n__Dᴜᴇ ᴛᴏ Oᴠᴇʀʟᴏᴀᴅ, Oɴʟʏ Cʜᴀɴɴᴇʟ Sᴜʙsᴄʀɪʙᴇʀs ᴄᴀɴ ᴜsᴇ ᴛʜᴇ Bᴏᴛ!__",
+                text="**Bᴏᴛᴜ ᴋᴜʟʟᴀɴᴍᴀᴋ ɪ︎ᴄɪ︎ɴ ɢʀᴜʙᴜᴍᴜᴢᴀ ᴋᴀᴛɪ︎ʟɪ︎ɴ!**\n\n__𝙰𝚜̧ｪ𝚛ｪ 𝚢𝚞̈𝚔𝚕𝚎𝚗𝚖𝚎 𝚜𝚎𝚋𝚎𝚋𝚒 𝚒𝚕𝚎 𝚂𝚊𝚍𝚎𝚌𝚎 𝚐𝚛𝚞𝚙 𝚞̈𝚢𝚎𝚕𝚎𝚛𝚒 𝚔𝚞𝚕𝚕𝚊𝚗𝚊𝚋𝚒𝚕𝚒𝚛!__",
                 reply_markup=InlineKeyboardMarkup(
                     [[
-                        InlineKeyboardButton("🤖 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
+                        InlineKeyboardButton("🤖 Gʀᴜʙᴀ ᴋᴀᴛɪ︎ʟ", url=f"https://t.me/{Var.UPDATES_CHANNEL}")
                         ]]
                 ),
                 parse_mode=ParseMode.MARKDOWN
@@ -245,7 +245,7 @@ async def help_handler(bot, message):
         except Exception:
             await bot.send_message(
                 chat_id=message.chat.id,
-                text="__Sᴏᴍᴇᴛʜɪɴɢ ᴡᴇɴᴛ Wʀᴏɴɢ. Cᴏɴᴛᴀᴄᴛ ᴍᴇ__ [Aᴠɪsʜᴋᴀʀ Pᴀᴛɪʟ](https://t.me/Avishkarpatil).",
+                text="__𝘽𝙞𝙧 𝙨𝙤𝙧𝙪𝙣 𝙫𝙖𝙧! 𝙔𝙖𝙥𝜾𝙢𝙘𝜾 𝙞𝙡𝙚 𝙞𝙡𝙚𝙩𝙞𝙨̧𝙞𝙢𝙚 𝙂𝙚𝙘̧__ [☬𝐃𝐀𝐑𝐊 | 𝐄𝐍𝐙𝐀☬](https://t.me/dark_enza).",
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True)
             return
