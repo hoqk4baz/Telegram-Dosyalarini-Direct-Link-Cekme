@@ -30,7 +30,7 @@ HELP_TEXT = """
 <b>🔞 𝙋𝙤𝙧𝙣𝙤𝙜𝙧𝙖𝙛𝙞 𝙞𝙘̧𝙚𝙧𝙚𝙣 𝙙𝙤𝙨𝙮𝙖𝙡𝙖𝙧 𝙠𝙖𝙡𝜾𝙘𝜾 𝙗𝙖𝙣𝙡𝙖𝙣𝙢𝙖𝙣𝜾𝙯𝙖 𝙨𝙚𝙗𝙚𝙥 𝙤𝙡𝙪𝙧.</b>\n
 <i>𝙷𝚊𝚝𝚊𝚕𝚊𝚛 𝚔𝚊𝚛𝚜̧ｪ𝚜ｪ𝚗𝚍𝚊 𝚈𝚊𝚙ｪ𝚖𝚌ｪ 𝚒𝚕𝚎 𝙸̇𝚕𝚎𝚝𝚒𝚜̧𝚒𝚖𝚎 𝙶𝚎𝚌̧𝚒𝚗</i> <b>: <a href='https://t.me/dark_enza'>[ 𝐁𝐮𝐫𝐝𝐚𝐧 ]</a></b>"""
 ABOUT_TEXT = """
-<b>⚜ 𝐁𝐨𝐭 𝐈̇𝐬𝐦𝐢 : 🇹🇷TrAppleDestek-İPALİNK🇹🇷</b>\n
+<b>⚜ 𝐁𝐨𝐭 𝐈̇𝐬𝐦𝐢 : 🇹🇷TrAppleDestek-IPALİNK🇹🇷</b>\n
 <b>🔸𝐒𝐮̈𝐫𝐮̈𝐦 : <a href='https://telegram.me/dark_enza'>1.0</a></b>\n
 <b>🔹𝐘𝐚𝐩𝛊𝐦𝐜𝛊 : <a href='https://telegram.me/dark_enza'>☬𝐃𝐀𝐑𝐊 | 𝐄𝐍𝐙𝐀☬</a></b>\n
 <b>🔸𝐘𝐚𝐲𝛊𝐧𝐥𝐚𝐧𝐦𝐚 𝐓𝐚𝐫𝐢𝐡𝐢 : <a href='https://telegram.me/dark_enza'>[ 10 - 𝔼𝕜𝕚𝕞 - 2022 ] </a></b>"""
