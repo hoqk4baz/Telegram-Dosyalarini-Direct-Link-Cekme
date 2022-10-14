@@ -33,7 +33,7 @@ async def private_receive_handler(c: Client, m: Message):
         await db.add_user(m.from_user.id)
         await c.send_message(
             Var.BIN_CHANNEL,
-            f"Yᴇɴɪ︎ ᴋᴜʟʟᴀɴɪ︎ᴄɪ︎ ᴋᴀᴛɪ︎ʟᴅɪ︎ : \n\n𝗜̇𝘀𝗶𝗺 : [{m.from_user.first_name}](tg://user?id={m.from_user.id}) Bᴏᴛᴜɴᴜ ʙᴀsʟᴀᴛᴛɪ︎ !!"
+            f"Yᴇɴɪ︎ ᴋᴜʟʟᴀɴɪ︎ᴄɪ︎ ᴋᴀᴛɪ︎ʟᴅɪ︎ : \n\n𝗜̇𝘀𝗶𝗺 : [{m.from_user.first_name}](tg://user?id={m.from_user.id}) Bᴏᴛᴜ ʙᴀsʟᴀᴛᴛɪ︎ 🙂"
         )
     if Var.UPDATES_CHANNEL != "None":
         try:
