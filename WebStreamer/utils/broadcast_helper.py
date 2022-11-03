@@ -11,10 +11,10 @@ async def send_msg(user_id, message):
         await asyncio.sleep(e.x)
         return send_msg(user_id, message)
     except InputUserDeactivated:
-        return 400, f"{user_id} : deactivated\n"
+        return 400, f"{user_id} : devre dışı\n"
     except UserIsBlocked:
-        return 400, f"{user_id} : blocked the bot\n"
+        return 400, f"{user_id} : botu engelledi\n"
     except PeerIdInvalid:
-        return 400, f"{user_id} : user id invalid\n"
+        return 400, f"{user_id} : kullanıcı kimliği geçersiz\n"
     except Exception as e:
         return 500, f"{user_id} : {traceback.format_exc()}\n"
