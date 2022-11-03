@@ -36,7 +36,7 @@ async def start_services():
             load = importlib.util.module_from_spec(spec)
             spec.loader.exec_module(load)
             sys.modules["WebStreamer.bot.plugins." + plugin_name] = load
-            print("Imported => " + plugin_name)
+            print("İmport edildi => " + plugin_name)
     print('\n')
     print('------------------- Web Server başlatılıyor -------------------')
     app = web.AppRunner(await web_server())
@@ -48,7 +48,7 @@ async def start_services():
     print('                        bot =>> {}'.format((await StreamBot.get_me()).first_name))
     print('                        server ip =>> {}:{}'.format(bind_address, Var.PORT))
     if Var.ON_HEROKU:
-        print('                        app runnng on =>> {}'.format(Var.FQDN))
+        print('                        Yürütme başlatıldı =>> {}'.format(Var.FQDN))
     if Var.ON_HEROKU:
         print('------------------ Keep Alive Servisi Başlatıldı ------------------')
         print('\n')
