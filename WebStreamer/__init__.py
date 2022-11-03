@@ -1,1 +1,8 @@
-#kafama göre aq
+#kafama göre aq 
+
+
+
+
+
+
+#şaka değer atanması için gerek :)
