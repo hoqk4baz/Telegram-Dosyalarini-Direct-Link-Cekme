@@ -23,7 +23,7 @@ class TGCustomYield:
          fonksiyonlar:
              create_file_properties: FileId sınıfında bulunan belirli bir mesajdaki bir medyanın özelliklerini döndürür.
              create_media_session: mesajdaki medya dosyasını içeren DC için medya oturumunu döndürür.
-             verim_dosyası: akış için telgram sunucularından dosya iletilir.
+             verim_dosyası: akış için telegram sunucularından dosya iletilir.
         """
         self.main_bot = StreamBot
 
