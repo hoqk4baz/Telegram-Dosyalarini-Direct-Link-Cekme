@@ -19,17 +19,17 @@ async def offset_fix(offset, chunksize):
 
 class TGCustomYield:
     def __init__(self):
-        """ A custom method to stream files from telegram.
-        functions:
-            generate_file_properties: returns the properties for a media on a specific message contained in FileId class.
-            generate_media_session: returns the media session for the DC that contains the media file on the message.
-            yield_file: yield a file from telegram servers for streaming.
+        """ Telgramdan dosya akışı için özel bir yöntem.
+         fonksiyonlar:
+             create_file_properties: FileId sınıfında bulunan belirli bir mesajdaki bir medyanın özelliklerini döndürür.
+             create_media_session: mesajdaki medya dosyasını içeren DC için medya oturumunu döndürür.
+             verim_dosyası: akış için telgram sunucularından dosya iletilir.
         """
         self.main_bot = StreamBot
 
     @staticmethod
     async def generate_file_properties(msg: Message):
-        error_message = "This message doesn't contain any downloadable media"
+        error_message = "Bu mesaj herhangi bir indirilebilir medya içermiyor"
         available_media = ("audio", "document", "photo", "sticker", "animation", "video", "voice", "video_note")
 
         if isinstance(msg, Message):
