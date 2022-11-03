@@ -121,7 +121,7 @@ async def channel_receive_handler(bot, broadcast):
             # [[InlineKeyboardButton("Dᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ 📥", url=f"https://t.me/FxStreamBot?start=AvishkarPatil_{str(log_msg.id)}")]])
         )
     except FloodWait as w:
-        print(f"Sleeping for {str(w.value)}s")
+        print(f"Dinlen Dostum :) {str(w.value)}s")
         await asyncio.sleep(w.value)
         await bot.send_message(chat_id=Var.BIN_CHANNEL,
                              text=f"Tᴀʟᴇᴘ ᴇᴅᴇɴ {str(w.value)}s from {broadcast.chat.title}\n\n**Kᴀɴᴀʟ ID:** `{str(broadcast.chat.id)}`",
