@@ -1,6 +1,6 @@
 {
-  "name": "Dark_Enza-FileStreamBot",
-  "description": "Telegram dosyalarını web'e aktarmak için bir Pyrogram Telegram botu.  t.me/dark_enza",
+  "name": "Dark_Enza-IPALiNK",
+  "description": "Telegram dosyalarını web'e aktarmak için Pyrogram Telegram botu.  t.me/dark_enza",
   "keywords": [
       "telegram",
       "stream",
@@ -14,45 +14,45 @@
     ],
   "repository": "https://github.com/hoqk4baz/Telegram-Dosyalarini-Direct-Link-Cekme",
   "success_url": "/",
-  "logo": "https://i.ibb.co/ZJzJ9Hq/link-3x.png",
-  "website": "avipatilweb.ml",
+  "logo": "https://i.hizliresim.com/jjbnbba.png",
+  "website": "t.me/dark_enza",
   "env": {
       "ENV": {
-          "description": "Botu çökertmek istemiyorsanız bunu True olarak ayarlayın",
+          "description": "Botu çökertmek istemiyorsan bunu True olarak ayarla",
           "value": "True"
       },
       "APP_NAME": {
-          "description": "Yukarıda yazdığınız uygulama adını Kopyala-Yapıştır yapın."
+          "description": "Yukarıda yazdığınız uygulama adını Kopyala-Yapıştır yap."
       },
       "API_ID": {
-          "description": "API ID'sini https://my.telegram.org adresinden alın"
+          "description": "API ID'sini https://my.telegram.org adresinden al"
       },
       "API_HASH": {
-          "description": "API HASH,i https://my.telegram.org adresinden alın"
+          "description": "API HASH,i https://my.telegram.org adresinden al"
       },
       "BOT_TOKEN": {
-          "description": "BOT TOKEN @BotFather'den alın"
+          "description": "BOT TOKEN @BotFather'den al"
       },
       "BIN_CHANNEL": {
-          "description": "MissRose_Bot'tan temin edin ÖRnk: -100XXXX"
+          "description": "Herhangi Bir ID veren Bot'tan  temin et ÖRnk: -100XXXX"
           
       },
       "PING_INTERVAL": {
-          "description": " Ping değeri girin(Es geçebilirsiniz)Normal değer 500",
+          "description": " Ping değeri gir(Es geçebilirsin)Normal değer 500",
           "required": false
       },
       "DATABASE_URL": {
-          "description": "MongoDB'den database URI alın"
+          "description": "MongoDB'den database URI al"
       },
       "OWNER_ID": {
-          "description": "Telegram kullanıcı id girin ÖRNK:563738XX"
+          "description": "Telegram kullanıcı id gir ÖRNK:563738XX"
       },
       "BANNED_CHANNELS": {
-          "description": "Botun çalışmadığı kanalları ekleyin KANAL ID girin ÖRNK: -100XXX",
+          "description": "Botun çalışmasını istemediğin kanalları ekleyebilirsin KANAL ID girin ÖRNK: -100XXX",
           "required": false
       },
       "UPDATES_CHANNEL": {
-          "description": "Es Geçin veyada Kanalınızın adresini girin @felanfilan",
+          "description": "Es Geç veyada Kanalının adresini gir "@"olmasıb ÖRNK= felanfilan",
           "required": false
           
       },
