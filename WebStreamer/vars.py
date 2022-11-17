@@ -15,7 +15,7 @@ class Var(object):
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1001893846131'))
     PORT = int(getenv('PORT', 8080))
-    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS'))
+    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'trappleipalink-darkenza.koyeb.app'))
     OWNER_ID = int(getenv('OWNER_ID', 5495065391))
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
@@ -24,7 +24,7 @@ class Var(object):
         APP_NAME = str(getenv('APP_NAME'))
     else:
         ON_HEROKU = False
-    FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.koyeb.com'
+    FQDN = str(getenv('FQDN', BIND_ADRESS)) if not ON_HEROKU or getenv('FQDN') else APP_NAME+'.koyeb.app'
     URL = "https://{}/".format(FQDN) if ON_HEROKU or NO_PORT else \
         "http://{}:{}/".format(FQDN, PORT)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://hoqk4baz:zsezsert55@cluster0.rvpzndm.mongodb.net/hoqk4baz?retryWrites=true&w=majority'))
