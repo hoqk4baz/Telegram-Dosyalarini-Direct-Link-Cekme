@@ -52,7 +52,7 @@
           "required": false
       },
       "UPDATES_CHANNEL": {
-          "description": "Es Geç veyada Kanalının adresini gir "@ olmasın ÖRNK= felanfilan",
+          "description": "Es Geç veyada Kanalının adresini gir @ olmasın ÖRNK= felanfilan",
           "required": false
           
       },
