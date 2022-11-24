@@ -201,7 +201,7 @@ async def start(b, m):
         await m.reply_text(
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode=ParseMode.HTML,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝕀̇ℕ𝔻𝕀̇ℝ 📥", url=stream_link), InlineKeyboardButton("𝕋𝕣𝕠𝕝𝕝𝕊𝕥𝕠𝕣𝕖'𝕕𝕖 𝔸𝕔̧🌀", url=f"apple-magnifier://install?url={stresm_link}")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝕀̇ℕ𝔻𝕀̇ℝ 📥", url=stream_link), InlineKeyboardButton("𝕋𝕣𝕠𝕝𝕝𝕊𝕥𝕠𝕣𝕖'𝕕𝕖 𝔸𝕔̧🌀", url=f"apple-magnifier://install?url={stream_link}")]])
         )
 
 
