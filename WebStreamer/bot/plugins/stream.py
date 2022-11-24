@@ -88,7 +88,7 @@ async def private_receive_handler(c: Client, m: Message):
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode=ParseMode.HTML, 
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝕀̇ℕ𝔻𝕀̇ℝ 📥", url=stream_link)], [InlineKeyboardButton("𝕋𝕣𝕠𝕝𝕝𝕊𝕥𝕠𝕣𝕖'𝕕𝕖 𝔸𝕔̧🌀", url=f"apple-magnifier://install?url={stream_link}")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝕀̇ℕ𝔻𝕀̇ℝ 📥", url=stream_link)], [InlineKeyboardButton("𝕋𝕣𝕠𝕝𝕝𝕊𝕥𝕠𝕣𝕖'𝕕𝕖 𝔸𝕔̧🌀", url=f"apple-magnifier://install?url={stream_link}")]]),
             quote=True
         )
     except FloodWait as e:
