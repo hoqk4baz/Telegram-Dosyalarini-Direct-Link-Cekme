@@ -78,7 +78,6 @@ async def private_receive_handler(c: Client, m: Message):
 <b>📂 𝔻𝕠𝕤𝕪𝕒 𝕀̇𝕤𝕞𝕚 :</b> <i>{}</i>\n
 <b>📦 𝔻𝕠𝕤𝕪𝕒 𝕓𝕠𝕪𝕦𝕥𝕦 :</b> <i>{}</i>\n
 <b>📥 𝕀̇𝕟𝕕𝕚𝕣𝕞𝕖 𝕃𝕚𝕟𝕜𝕚 :</b> <i>{}</i>\n
-<i>🔥 𝔼𝕤𝕚𝕘𝕟 ℝ𝕖𝕡𝕠</i> <b>: <a href='https://hoqk4baz.github.io/esign-yonlendirme/'>[𝐓𝐈𝐊𝐋𝐀]</a></b>\n
 <b>🚸 ℕ𝕠𝕥 : 𝙇𝙞𝙣𝙠𝙡𝙚𝙧 𝙠𝙖𝙡𝜾𝙘𝜾𝙙𝜾𝙧 𝙫𝙚 𝙔𝙪̈𝙠𝙨𝙚𝙠 𝙝𝜾𝙯𝙙𝙖 𝙞𝙣𝙙𝙞𝙧𝙢𝙚 𝙨𝙖𝙜̆𝙡𝙖𝙧</b>\n
 <i>🍃 𝑩𝒐𝒕 𝑺𝒂𝒉𝒊𝒃𝒊 𝑮𝒓𝒖𝒑 :</i> <b>@TrappledestekCom</b>
 """
@@ -88,9 +87,10 @@ async def private_receive_handler(c: Client, m: Message):
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode=ParseMode.HTML, 
             disable_web_page_preview=True,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝕀̇ℕ𝔻𝕀̇ℝ 📥", url=stream_link)]]),
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝕀̇ℕ𝔻𝕀̇ℝ 📥", url=stream_link), InlineKeyboardButton("🔥 𝔼𝕤𝕚𝕘𝕟 ℝ𝕖𝕡𝕠", url=f"https://hoqk4baz.github.io/esign-yonlendirme")]]),
             quote=True
         )
+       
     except FloodWait as e:
         print(f"Sleeping for {str(e.value)}s")
         await asyncio.sleep(e.value)
