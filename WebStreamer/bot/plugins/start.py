@@ -193,7 +193,6 @@ async def start(b, m):
 <b>📂 𝔻𝕠𝕤𝕪𝕒 𝕀̇𝕤𝕞𝕚 :</b> <i>{}</i>\n
 <b>📦 𝔻𝕠𝕤𝕪𝕒 𝔹𝕠𝕪𝕦𝕥𝕦 :</b> <i>{}</i>\n
 <b>📥 𝕀̇𝕟𝕕𝕚𝕣𝕞𝕖 𝕃𝕚𝕟𝕜𝕚 :</b> <i>{}</i>\n
-<i>🔥 𝔼𝕤𝕚𝕘𝕟 ℝ𝕖𝕡𝕠</i> <b>: <a href='https://hoqk4baz.github.io/esign-yonlendirme/'>[𝐓𝐈𝐊𝐋𝐀]</a></b>\n
 <b>🚸 ℕ𝕠𝕥 : 𝙇𝙞𝙣𝙠𝙡𝙚𝙧 𝙠𝙖𝙡𝜾𝙘𝜾𝙙𝜾𝙧 𝙫𝙚 𝙔𝙪̈𝙠𝙨𝙚𝙠 𝙝𝜾𝙯𝙙𝙖 𝙞𝙣𝙙𝙞𝙧𝙢𝙚 𝙨𝙖𝙜̆𝙡𝙖𝙧</b>\n
 <i>🍃 𝑩𝒐𝒕 𝑺𝒂𝒉𝒊𝒃𝒊 𝑮𝒓𝒖𝒑 :</i> <b>@TrappledestekCom</b>
 """
@@ -201,7 +200,7 @@ async def start(b, m):
         await m.reply_text(
             text=msg_text.format(file_name, file_size, stream_link),
             parse_mode=ParseMode.HTML,
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝕀̇ℕ𝔻𝕀̇ℝ 📥", url=stream_link)]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("𝕀̇ℕ𝔻𝕀̇ℝ 📥", url=stream_link), InlineKeyboardButton("🔥 𝔼𝕤𝕚𝕘𝕟 ℝ𝕖𝕡𝕠", url=f"https://hoqk4baz.github.io/esign-yonlendirme")]])
         )
 
 
