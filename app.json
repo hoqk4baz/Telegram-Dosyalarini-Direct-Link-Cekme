@@ -23,18 +23,23 @@
       },
       "APP_NAME": {
           "description": "Yukarıda yazdığınız uygulama adını Kopyala-Yapıştır yap."
+          "value": "trappleipa"
       },
       "API_ID": {
           "description": "API ID'sini https://my.telegram.org adresinden al"
+          "value": "27149351"
       },
       "API_HASH": {
           "description": "API HASH,i https://my.telegram.org adresinden al"
+          "value": "2edf2bdf7cb587effd7dc089f1989cb5"
       },
       "BOT_TOKEN": {
           "description": "BOT TOKEN @BotFather'den al"
+          "value": "5982553091:AAE8Cbamg4BoJQpums9ysq-lUq-YKaCTeok"
       },
       "BIN_CHANNEL": {
           "description": "Herhangi Bir ID veren Bot'tan  temin et ÖRnk: -100XXXX"
+          "value": "-1001607576882"
           
       },
       "PING_INTERVAL": {
@@ -43,9 +48,11 @@
       },
       "DATABASE_URL": {
           "description": "MongoDB'den database URI al"
+          "value": "mongodb+srv://hoqk4baz:zsezsert55@cluster0.rvpzndm.mongodb.net/hoqk4baz?retryWrites=true&w=majority"
       },
       "OWNER_ID": {
           "description": "Telegram kullanıcı id gir ÖRNK:563738XX"
+          "value": "5826900952"
       },
       "BANNED_CHANNELS": {
           "description": "Botun çalışmasını istemediğin kanalları ekleyebilirsin KANAL ID girin ÖRNK: -100XXX",
